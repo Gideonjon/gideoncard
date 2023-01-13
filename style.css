@@ -1,0 +1,79 @@
+body{
+	font-family: 'Oswald', sans-serif;
+}
+
+h1{
+  cursor:default;
+	font-size:60px;
+  text-shadow: 4px 4px black;
+  color:white;
+  margin-bottom:5px;
+}
+
+p,a{
+	font-size: 30px;
+	margin-top:5px;
+	margin-bottom:5px;
+}
+
+a{
+	text-decoration:none;
+}
+.button{
+  border: 1px solid white;
+  border-radius: 20px;
+  background-color: transparent;
+  color:white;
+  transition: ease 0.3s;
+  padding:8px;
+  font-size:20px;
+  font-weight:500;
+  margin-top:5px;
+  text-shadow: 4px 4px black;
+}
+
+.button:hover{
+  transition: ease 0.3s;
+  background-color:white;
+  color:black;
+  text-shadow: 1px 1px white;
+}
+
+.portfolio-content{
+	display:flex;
+	flex-flow:column;
+  text-align: center;
+	justify-content:center;
+	position: absolute;
+  z-index: 2;
+  left: 0%;
+	right: 0%;
+	bottom:0%;
+	top:0%;
+}
+
+.portfolio-background{
+  background:url('https://media2.giphy.com/media/l0Iy5fjHyedk9aDGU/source.gif');
+  background-size:cover;
+  background-repeat:no-repeat;
+}
+
+.site-row{
+	display: flex;
+    flex-flow: row;
+    left: 0%;
+    right: 0%;
+    justify-content: center;
+}
+
+.site-row a{
+	margin-left: 10px;
+    margin-right: 10px;
+}
+#date-time{
+  color:white;
+  cursor:default;
+	font-size:25px;
+  margin-bottom:5px;
+  text-shadow: 4px 4px black;
+}
